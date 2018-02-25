@@ -1,0 +1,56 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>XSY</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--[if lte IE 8]><script src="/assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="./assets/css/main.css">
+		<link href='http://fonts.proxy.ustclug.org/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+	</head>
+	<body class="is-loading" style="user-select:none;">
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<section id="main" style="box-shadow: 0px 5px 20px #333">
+						<header>
+							<span class="avatar"><img src="http://xsyblog.test.upcdn.net/%E5%A4%B4%E5%83%8F.jpg" alt="" style="width: 40%; height: auto;"></span>
+							<h1>XSY</h1>
+						</header>
+						<footer>
+							<ul class="icons">
+								<li><a href="https://xsiy.top/blog/" class="fa-home"></a></li>
+								<li><a href="http://wpa.qq.com/msgrd?v=3&uin=1242251966&site=qq&menu=yes" class="fa-qq"></a></li>
+								
+								<li><a href="mailto:1242251966@qq.com" class="fa-envelope"></a></li>
+							</ul>
+						</footer>
+					</section>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>© 2016-2018 XSY</li>
+							<li>All Rights Reserved</li>
+						</ul>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+				window.onload = function() {
+					var num = Math.floor(Math.random()*8+1);
+					var src = "http://xsyblog.test.upcdn.net/" + num.toString() + ".jpg";
+					document.body.style.backgroundImage = "url(" + src + ")";
+				}
+			</script>
+	</body>
+</html>
